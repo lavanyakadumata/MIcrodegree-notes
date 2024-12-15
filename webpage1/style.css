@@ -1,0 +1,66 @@
+header{
+    background-color: aquamarine;
+    color: aliceblue;
+    padding: 30px;
+}
+
+.navbar{
+    background-color: aquamarine;
+}
+
+ul{
+    list-style:  none;
+    padding: 0px;
+}
+
+ul li{
+    float: left;
+}
+
+li a{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 15px;
+    display: black;
+}
+ul li a:hover{
+    background-color: rgba(94,82,86);
+}
+
+form{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:0px ;
+    margin: auto;
+    max-width: 400px;
+}
+label{
+    text-align: left;
+    padding: 0px 10px;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+}
+.submit_button{
+    background-color: yellow;
+    color: red;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+}
+.submit_button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+footer{
+    background-color: aquamarine;
+    padding: 0px;
+    
+}
+
+footer h1{
+    color: white;
+}
